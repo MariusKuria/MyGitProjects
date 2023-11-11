@@ -6,9 +6,7 @@ def even_or_odd():
         print("Odd!")
 
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    return n % 2 == 0 
     
 even_or_odd()
+
