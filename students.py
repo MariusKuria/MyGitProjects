@@ -11,7 +11,12 @@ students = {
     "Fejona": "Kupiskis"
 }
 
+# is dict istraukiam tik key per var student
+#istraukiam value students[student]
+
 
 
 for student in students:
-    print(student, students[student], sep=", ")
+    print(students[student])
+
+# jei yra listas dictionariu tuomet traukiam rasom student[key]
